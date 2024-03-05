@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import profile from './frank-profile.png';
+import './HomePage.css';
 
 class HomePage extends Component {
     render() {
         return (
-            <div>
-                <h1>Elvis Frank Canchari Lapa</h1>
+            <div className="home-page">
                 <img src={profile} alt="Frank Lapa" />
-                <p>Atlassian Community Leader</p>
+                <h1>Frank Lapa</h1>
+                <p className="brand-statement">Atlassian Community Leader</p>
                 <p>This is my portfolio site.</p>
             </div>
         );
