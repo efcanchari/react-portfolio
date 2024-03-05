@@ -10,6 +10,9 @@ npx create-react-app .
 
 ## Deploy React app
 In order to deploy our app in github
+```
+npm run deploy
+```
 
 ## Available Scripts
 
