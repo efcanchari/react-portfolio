@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Team Profile Generator",
+    "link": "https://efcanchari.github.io/team-profile-generator/",
+    "repo": "https://github.com/efcanchari/team-profile-generator",
+    "image": "/github.png"
+  },
+  {
+    "id": 2,
+    "title": "Daily Planner App",
+    "link": "https://efcanchari.github.io/daily-planner-app/",
+    "repo": "https://github.com/efcanchari/daily-planner-app",
+    "image": "/github.png"
+  },
+  {
+    "id": 3,
+    "title": "Password Generator",
+    "link": "https://efcanchari.github.io/password-generator/",
+    "repo": "https://github.com/efcanchari/password-generator",
+    "image": "/github.png"
+  }
+]
