@@ -1,49 +1,49 @@
 /* Header.css */
 
 .app-header {
-    background-color: #333; /* Dark background color */
-    color: #fff; /* White text color */
-    padding: 0.5rem; /* Some padding */
-    text-align: center; /* Center-align items */
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .navbar {
-    max-width: 1200px; /* Max width of the navbar */
-    margin: 0 auto; /* Center the navbar */
-    display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-links {
-    list-style: none; /* Remove default list styling */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-    display: flex; /* Display list items in a row */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 .nav-links li {
-    margin: 0 1rem; /* Space out the nav items */
+    margin: 0 1rem;
 }
 
 .nav-links a {
-    color: #fff; /* White text color for links */
-    text-decoration: none; /* Remove underline from links */
-    padding: 0.5rem 1rem; /* Padding around links */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
 }
 
 .nav-links a:hover,
 .nav-links a:focus {
-    background-color: #555; /* Darken link background on hover/focus */
+    background-color: #555;
 }
 
 @media (max-width: 768px) {
     .nav-links li {
-        margin: 0 0.5rem; /* Less space between nav items on smaller screens */
+        margin: 0 0.5rem;
     }
 
     .nav-links a {
-        padding: 0.5rem; /* Smaller padding for links on smaller screens */
+        padding: 0.5rem;
     }
 }
