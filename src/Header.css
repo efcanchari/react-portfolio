@@ -1,0 +1,49 @@
+/* Header.css */
+
+.app-header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 0.5rem; /* Some padding */
+    text-align: center; /* Center-align items */
+}
+
+.navbar {
+    max-width: 1200px; /* Max width of the navbar */
+    margin: 0 auto; /* Center the navbar */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-links {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Display list items in a row */
+}
+
+.nav-links li {
+    margin: 0 1rem; /* Space out the nav items */
+}
+
+.nav-links a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 0.5rem 1rem; /* Padding around links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+    background-color: #555; /* Darken link background on hover/focus */
+}
+
+@media (max-width: 768px) {
+    .nav-links li {
+        margin: 0 0.5rem; /* Less space between nav items on smaller screens */
+    }
+
+    .nav-links a {
+        padding: 0.5rem; /* Smaller padding for links on smaller screens */
+    }
+}
