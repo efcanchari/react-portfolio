@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import Project from './Project'; // Ensure this import matches your file structure
-import projects from './projects.json'; // Adjust path as necessary
+import Project from './Project';
+import projects from './projects.json';
+import './ProjectsPage.css';
 
 class ProjectsPage extends Component {
     render() {
         return (
-            <div>
+            <div className="projects-container">
                 {projects.map(project => (
-                    <Project key={project.id} details={project} />
+                    <Project key={project.id} details={project}/>
                 ))}
             </div>
         );
