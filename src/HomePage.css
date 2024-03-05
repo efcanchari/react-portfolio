@@ -1,25 +1,25 @@
 .home-page {
-    text-align: center; /* Center everything */
-    padding: 20px; /* Add padding for spacing */
-    font-family: 'Arial', sans-serif; /* Use a simple, clean font */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
 }
 
 .home-page h1 {
-    color: #333; /* Dark text color */
-    margin-top: 20px; /* Space above the name */
+    color: #333;
+    margin-top: 20px;
 }
 
 .home-page img {
-    width: 150px; /* Set the image width */
-    height: 150px; /* Set the image height to the same as width to maintain aspect ratio */
-    border-radius: 50%; /* Make the image round */
-    object-fit: cover; /* Ensure the image covers the area without being distorted */
-    border: 6px solid orange; /* Adjust the border thickness and color to match your design */
-    display: block; /* Change display to block to allow margin auto to center the image */
-    margin: 20px auto; /* Center the image horizontally */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid orange;
+    display: block;
+    margin: 20px auto;
 }
 
 .home-page p {
-    color: #666; /* Lighter text color for the paragraphs */
-    margin: 10px 0; /* Spacing between paragraphs */
+    color: #666;
+    margin: 10px 0;
 }
