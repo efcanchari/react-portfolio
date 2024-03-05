@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from "./Header";
 import HomePage from "./HomePage";
@@ -7,16 +7,20 @@ import ProjectsPage from './ProjectsPage';
 import ContactPage from './ContactPage';
 
 class App extends Component {
-  render() {
-    return (
-        <div className="App">
-            <Header />
-            <HomePage />
-            <ProjectsPage />
-            <ContactPage />
-        </div>
-    );
-  }
+    render() {
+        return (
+            <Router>
+                <div className="App">
+                    <Header />
+                    <Routes>
+                        <Route path="/" element={<HomePage />} />
+                        <Route path="/projects" element={<ProjectsPage />} />
+                        <Route path="/contact" element={<ContactPage />} />
+                    </Routes>
+                </div>
+            </Router>
+        );
+    }
 }
 
 export default App;

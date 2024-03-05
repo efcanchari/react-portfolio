@@ -1,23 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg'; // Adjust the path as necessary
-import './App.css'; // Adjust the path as necessary if your CSS is specific to the entire app
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
     render() {
         return (
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React 2
-                </a>
+            <header className="app-header">
+                <nav className="navbar">
+                    <ul className="nav-links">
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/projects">Projects</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
+                    </ul>
+                </nav>
             </header>
         );
     }

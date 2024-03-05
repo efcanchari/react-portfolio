@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import projectLogo from './project-logo.png';
 
 class Project extends Component {
     render() {
@@ -8,7 +9,7 @@ class Project extends Component {
                 <h2>{title}</h2>
                 <a href={link} target="_blank" >Deployed Version</a>
                 <a href={repo} target="_blank" >GitHub Repo</a>
-                <img src={image} alt={`Screenshot of ${title}`} />
+                <img src={projectLogo} alt={`Screenshot of ${title}`} />
             </div>
         );
     }

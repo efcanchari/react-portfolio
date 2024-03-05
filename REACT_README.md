@@ -8,6 +8,8 @@ To create a new React project in the actual repository we have to use next comma
 npx create-react-app .
 ```
 
+## Deploy React app
+In order to deploy our app in github
 
 ## Available Scripts
 
