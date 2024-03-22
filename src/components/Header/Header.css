@@ -3,7 +3,7 @@
 .app-header {
     background-color: #333;
     color: #fff;
-    padding: 0.5rem;
+    /*padding: 0.5rem;*/
     text-align: center;
 }
 
@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px;
 }
 
 .nav-links {
@@ -29,13 +30,13 @@
 .nav-links a {
     color: #fff;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding:1rem 1rem;
     transition: background-color 0.3s;
 }
 
 .nav-links a:hover,
 .nav-links a:focus {
-    background-color: #555;
+    background-color: orange;
 }
 
 @media (max-width: 768px) {
@@ -47,3 +48,23 @@
         padding: 0.5rem;
     }
 }
+
+@media only screen and (min-width: 1300px) {
+    nav a.button-collapse {
+        display: none;
+    }
+}
+
+nav .button-collapse {
+    float: left;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+}
+
+nav .button-collapse i {
+    font-size: 2.7rem;
+    height: 56px;
+    line-height: 56px;
+}
+

@@ -8,6 +8,22 @@ To create a new React project in the actual repository we have to use next comma
 npx create-react-app .
 ```
 
+## install dependencies
+follow next commands to install dependencies
+```
+# router for dynamic navigation
+npm install react-router-dom
+
+# deployment in github
+npm install gh-pages --save-dev
+
+# Enable boostrap in project, also add in index.js
+npm install bootstrap
+
+# Enable icons, also add in index.js
+npm install ionicons
+```
+
 ## Deploy React app
 In order to deploy our app in github
 ```
@@ -80,3 +96,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Librsaries
+
+### Carousel
+```
+npm install react-slick slick-carousel
+```
+
+### timeline effect
+```
+npm install aos react-scroll
+npm audit fix --force
+```
+
+### Fix issues
+```
+npm install react-scripts@latest --save
+```
+
+### install chrono
+```
+npm install react-chrono --save
+```
